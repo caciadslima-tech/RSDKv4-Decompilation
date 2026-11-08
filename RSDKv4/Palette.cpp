@@ -66,7 +66,7 @@ void SetLimitedFade(byte paletteID, byte R, byte G, byte B, ushort blendAmount, 
 
     if (blendAmount >= 0x100)
         blendAmount = 0xFF;
-
+activePalette[i] = PACK_RGB888(
     if (startIndex >= endIndex)
         return;
 
